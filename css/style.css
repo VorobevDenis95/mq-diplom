@@ -10,18 +10,18 @@
 
 @font-face {
   font-family: OpenSans;
-  src: local("OpenSans"), url("/fonts/OpenSans-Regular.ttf") format("truetype"),
-    url("/fonts/OpenSans-Regular.woff") format("woff"),
-    url("/fonts/OpenSans-Regular.woff2") format("woff2");
+  src: local("OpenSans"), url("../fonts/OpenSans-Bold.ttf") format("truetype"),
+    url("../fonts/OpenSans-Regular.woff") format("woff"),
+    url("../fonts/OpenSans-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: OpenSans;
-  src: local("OpenSans"), url("/fonts/OpenSans-Bold.ttf") format("truetype"),
-    url("/fonts/OpenSans-Bold.woff") format("woff"),
-    url("/fonts/OpenSans-Bold.woff2") format("woff2");
+  src: local("OpenSans"), url("../fonts/OpenSans-Bold.ttf") format("truetype"),
+    url("../fonts/OpenSans-Bold.woff") format("woff"),
+    url("../fonts/OpenSans-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
 }
@@ -40,7 +40,7 @@
   width: 100%;
   min-height: 449px;
   position: relative;
-  background-image: url("/img/banner-bg.jpg");
+  background-image: url("../img/banner-bg.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -205,19 +205,19 @@
 }
 
 .news_block_element1 {
-  background-image: url(/img/trend1.jpg);
+  background-image: url(../img/trend1.jpg);
 }
 
 .news_block_element2 {
-  background-image: url(/img/trend2.jpg);
+  background-image: url(../img/trend2.jpg);
 }
 
 .news_block_element3 {
-  background-image: url(/img/trend3.jpg);
+  background-image: url(../img/trend3.jpg);
 }
 
 .news_block_element4 {
-  background-image: url(/img/trend4.jpg);
+  background-image: url(../img/trend4.jpg);
 }
 
 .news_block_container {
@@ -698,7 +698,7 @@
 .popup_list {
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url(/svg/form-arrows.svg);
+  background-image: url(../svg/form-arrows.svg);
   background-position: right 14px center;
   background-repeat: no-repeat;
   background-size: 10px;
@@ -739,7 +739,7 @@
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url("/svg/form-empty-circle.svg");
+  background-image: url("../svg/form-empty-circle.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -748,7 +748,7 @@
 }
 
 .popup_radio-group:checked + .popup_text-radio::before {
-  background-image: url("/svg/form-circle.svg");
+  background-image: url("../svg/form-circle.svg");
 }
 
 .popup_textarea {
@@ -821,21 +821,21 @@
 }
 
 .social-link-dribbble {
-  background-image: url("/svg/001-dribbble.svg");
+  background-image: url("../svg/001-dribbble.svg");
   position: absolute;
   left: 45.3%;
   top: 17%;
 }
 
 .social-link-printerest {
-  background-image: url("/svg/002-pinterest.svg");
+  background-image: url("../svg/002-pinterest.svg");
   position: absolute;
   left: 49.3%;
   top: 16.8%;
 }
 
 .social-link-tumblr {
-  background-image: url("/svg/003-tumblr.svg");
+  background-image: url("../svg/003-tumblr.svg");
   position: absolute;
   left: 53%;
   top: 17.3%;
@@ -858,7 +858,7 @@
   /* Header Tablet */
 
   .header {
-    background-image: url("/img/banner-bg-tablet.jpg");
+    background-image: url("../img/banner-bg-tablet.jpg");
     min-height: 390px;
   }
 
@@ -1068,7 +1068,7 @@
 
   .header {
     min-height: 639px;
-    background-image: url("/img/banner-mobile.jpg");
+    background-image: url("../img/banner-mobile.jpg");
   }
 
   .container {
